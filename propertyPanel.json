@@ -1,0 +1,30 @@
+[
+  {
+    "type": "Accordion",
+    "properties": {
+      "name": "General",
+      "collapsed": false
+    },
+    "children": [
+      {
+        "type": "InputBox",
+        "properties": {
+          "labelName": "svg_shape text:",
+          "allowBinding": true,
+          "allowManualEntry": true,
+          "textArea": true,
+          "bindingPropertyName": "svg_shapeData"
+        }
+      },
+      {
+        "type": "InputBox",
+        "properties": {
+          "labelName": "svg_shape response:",
+          "allowBinding": true,
+          "allowManualEntry": false,
+          "bindingPropertyName": "svg_shapeResponse"
+        }
+      }
+    ]
+  }
+]

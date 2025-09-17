@@ -1,0 +1,26 @@
+[
+    {
+        "property": "svgType",
+        "direction": "receive"
+    },
+    {
+        "property": "fillColor",
+        "direction": "receive"
+    },
+    {
+        "property": "svgSize",
+        "direction": "receive"
+    },
+    {
+        "property": "strokeColor",
+        "direction": "receive"
+    },
+    {
+        "property": "strokeWidth",
+        "direction": "receive"
+    },
+    {
+        "property": "generatedSvg",
+        "direction": "send"
+    }
+]

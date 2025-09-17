@@ -1,0 +1,10 @@
+[
+  {
+    "property": "svg_shapeData",
+    "direction": "receive"
+  },
+  {
+    "property": "svg_shapeResponse",
+    "direction": "send"
+  }
+]

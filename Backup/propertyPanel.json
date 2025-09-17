@@ -1,0 +1,28 @@
+[
+  {
+    "type": "Accordion",
+    "properties": { "name": "General", "collapsed": false },
+    "children": [
+      {
+        "type": "InputBox",
+        "properties": {
+          "labelName": "Display cell → shown in add-on",
+          "allowBinding": true,
+          "allowManualEntry": true,
+          "textArea": false,
+          "bindingPropertyName": "displayText"
+        }
+      },
+      {
+        "type": "InputBox",
+        "properties": {
+          "labelName": "Editable cell ← writes from text box",
+          "allowBinding": true,
+          "allowManualEntry": true,
+          "textArea": false,
+          "bindingPropertyName": "inputText"
+        }
+      }
+    ]
+  }
+]

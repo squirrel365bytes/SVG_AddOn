@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Squirrel Add-on: Read & Write Cells</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root { --pad:16px; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:ui-sans-serif, system-ui, Arial; }
+    .wrap { min-height:100vh; display:grid; place-items:center; background:#fafafa; }
+    .card { width:min(720px, 92vw); background:#fff; border:1px solid #e5e7eb; border-radius:14px; box-shadow:0 6px 22px rgba(0,0,0,.06); padding:calc(var(--pad) * 1.25); }
+    h1 { margin:0 0 12px; font-size:20px; }
+    .row { margin:14px 0; }
+    .label { display:block; font-size:12px; color:#6b7280; margin-bottom:6px; }
+    .display { font-size:24px; padding:10px 12px; background:#f3f4f6; border-radius:10px; border:1px solid #e5e7eb; }
+    input[type="text"] { width:100%; padding:10px 12px; border:1px solid #d1d5db; border-radius:10px; font-size:16px; }
+    .hint { margin-top:6px; font-size:12px; color:#6b7280; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>Sheet ↔ Add-on</h1>
+
+      <div class="row">
+        <span class="label">Value from bound “Display cell”</span>
+        <div id="display" class="display">—</div>
+        <div class="hint">Bind <em>Display cell</em> to any cell in the property panel.</div>
+      </div>
+
+      <div class="row">
+        <span class="label">Text box (writes to bound “Editable cell”)</span>
+        <input id="editor" type="text" placeholder="Type to write back to the sheet…" />
+        <div class="hint">Bind <em>Editable cell</em> to a different cell in the property panel.</div>
+      </div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>

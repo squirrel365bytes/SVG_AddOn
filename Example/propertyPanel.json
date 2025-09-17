@@ -1,0 +1,30 @@
+[
+    {
+        "type": "Accordion",
+        "properties": {
+            "name": "General",
+            "collapsed": false
+        },
+        "children": [
+            {
+                "type": "InputBox",
+                "properties": {
+                    "labelName": "Hello world text:",
+                    "allowBinding": true,
+                    "allowManualEntry": true,
+                    "textArea": true,
+                    "bindingPropertyName": "helloWorldData"
+                }
+            },
+            {
+                "type": "InputBox",
+                "properties": {
+                    "labelName": "Hello world response:",
+                    "allowBinding": true,
+                    "allowManualEntry": false,
+                    "bindingPropertyName": "helloWorldResponse"
+                }
+            }          
+        ]
+    }
+]

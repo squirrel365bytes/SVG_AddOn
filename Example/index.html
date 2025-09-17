@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>SquirrelAddon</title>
+	<base href="/">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<script defer src="./scripts/squirrel-helper.js"></script>
+	<script defer src="./scripts/app.js"></script>
+	<style>
+		body {
+			display: flex;
+			justify-content: center;
+			padding: 20px 0 20px 0;
+		}
+	</style>
+</head>
+
+<body>
+	<div
+		style="background: #FFFFFF;box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); width: 70%; height: 80vh; padding: 10px">
+		<div style="width: 100%; height: 39px; display: flex; justify-content: center;">
+			<svg width="45" height="39" viewBox="0 0 45 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path fill-rule="evenodd" clip-rule="evenodd"
+					d="M18.0469 28.2958C18.0469 22.3842 22.9678 17.5923 29.0385 17.5923C35.1093 17.5923 40.0302 22.3842 40.0302 28.2958C40.0302 31.1631 38.8701 33.7655 36.9848 35.687C37.1536 36.0465 37.5244 36.2976 37.9571 36.2976C38.0179 36.2976 38.076 36.2896 38.134 36.2801C38.1335 36.2812 38.1335 36.2828 38.1335 36.2843C38.3772 36.2251 38.6302 36.1902 38.8929 36.1902C40.5378 36.1902 41.8824 37.4283 42.0057 38.9993H29.9332C29.9218 38.9882 29.9109 38.9756 29.9001 38.9634C29.6156 38.9851 29.329 38.9993 29.0385 38.9993H29.0375H29.0369H29.0347C22.9662 38.9972 18.0469 34.2058 18.0469 28.2958Z"
+					fill="url(#paint0_linear_296_2919)" />
+				<path fill-rule="evenodd" clip-rule="evenodd"
+					d="M40.4867 13.694C41.116 13.694 41.6258 14.1881 41.6258 14.7986C41.6258 15.4091 41.116 15.9039 40.4867 15.9039C39.8575 15.9039 39.3477 15.4091 39.3477 14.7986C39.3477 14.1881 39.8575 13.694 40.4867 13.694ZM35.7612 21.7832C36.2841 21.9646 36.8068 22.1804 37.2998 22.1804H42.6108C43.9252 22.1804 45.0003 21.1374 45.0003 19.8626V15.3016C45.0003 15.1255 44.9753 14.9547 44.9362 14.7892C44.5046 11.5821 41.6842 9.10391 38.2622 9.10391C37.4266 9.10391 36.6308 9.25834 35.893 9.52795V5.68541C35.893 4.66588 35.0338 3.83154 33.9824 3.83154H33.4927C32.4427 3.83154 31.5828 4.66588 31.5828 5.68541V14.5922C31.5828 14.6387 31.5234 15.331 31.5234 15.6425C31.5234 18.4701 33.1715 20.871 35.7612 21.7832Z"
+					fill="#0197FF" />
+				<path fill-rule="evenodd" clip-rule="evenodd"
+					d="M39.9194 25.2378C38.5901 25.2378 37.5127 26.2647 37.5127 27.5316C37.5127 28.7981 38.5901 29.825 39.9194 29.825C41.157 29.825 42.164 28.9314 42.2987 27.7866H44.9729C44.9828 27.7014 44.9998 27.619 44.9998 27.5316C44.9998 26.2647 43.9224 25.2378 42.5931 25.2378H39.9194Z"
+					fill="#0FAFFF" />
+				<path fill-rule="evenodd" clip-rule="evenodd"
+					d="M7.45693 18.4905C5.34741 19.2308 3.732 20.7715 2.82599 22.6642C1.95702 21.4996 1.25015 20.1786 0.757148 18.7192C-1.73235 11.35 2.11835 3.31572 9.35865 0.774677C16.5985 -1.7662 24.4863 2.14832 26.9758 9.5176C29.4654 16.8874 25.6142 24.9218 18.3744 27.4627C18.2663 27.5006 18.1576 27.532 18.0491 27.5673C18.2564 26.2718 18.163 24.9084 17.7146 23.5811C16.2651 19.2901 11.6725 17.011 7.45693 18.4905Z"
+					fill="url(#paint1_linear_296_2919)" />
+				<defs>
+					<linearGradient id="paint0_linear_296_2919" x1="18.7255" y1="20.4728" x2="18.7255" y2="40.6671"
+						gradientUnits="userSpaceOnUse">
+						<stop stop-color="#0197FF" />
+						<stop offset="1" stop-color="#3BFCFF" />
+					</linearGradient>
+					<linearGradient id="paint1_linear_296_2919" x1="-6.04844" y1="8.43054" x2="6.88901" y2="35.1239"
+						gradientUnits="userSpaceOnUse">
+						<stop stop-color="#0197FF" />
+						<stop offset="1" stop-color="#3BFCFF" />
+					</linearGradient>
+				</defs>
+			</svg>
+		</div>
+		<div style="margin-top:10px; font-family: Open Sans; font-size: 24px; color: #242729;">
+			Hello World! - <span id="helloWorldText"></span>
+		</div>
+		<div style="font-size: 0.7em; color: #a5a5a5; position: absolute; bottom: 5px; right: 5px;">
+			Squirrel developer addon.
+		</div>
+	</div>
+
+</body>
+
+</html>

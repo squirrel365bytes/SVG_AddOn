@@ -1,0 +1,31 @@
+[
+  {
+    "type": "Accordion",
+    "properties": {
+      "name": "General",
+      "collapsed": false
+    },
+    "children": [
+      {
+        "type": "InputBox",
+        "properties": {
+          "labelName": "Display cell \u2192 shown in add-on (helloWorldData)",
+          "allowBinding": true,
+          "allowManualEntry": true,
+          "textArea": false,
+          "bindingPropertyName": "helloWorldData"
+        }
+      },
+      {
+        "type": "InputBox",
+        "properties": {
+          "labelName": "Editable/Target cell \u2190 receives UPPERCASE (helloWorldResponse)",
+          "allowBinding": true,
+          "allowManualEntry": true,
+          "textArea": false,
+          "bindingPropertyName": "helloWorldResponse"
+        }
+      }
+    ]
+  }
+]

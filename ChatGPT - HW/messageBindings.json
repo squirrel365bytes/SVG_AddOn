@@ -1,0 +1,14 @@
+[
+  {
+    "property": "helloWorldData",
+    "direction": "receive"
+  },
+  {
+    "property": "helloWorldResponse",
+    "direction": "send"
+  },
+  {
+    "property": "helloWorldResponse",
+    "direction": "receive"
+  }
+]
