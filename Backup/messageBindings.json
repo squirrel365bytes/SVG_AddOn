@@ -1,6 +1,0 @@
-[
-  { "property": "displayText", "direction": "receive" },
-
-  { "property": "inputText",   "direction": "receive" },
-  { "property": "inputText",   "direction": "send" }
-]
